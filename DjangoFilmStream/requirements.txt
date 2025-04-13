@@ -1,0 +1,22 @@
+# ----------------------------
+# Core Framework
+# ----------------------------
+Django==5.2                      # High-level Python Web framework
+
+# ----------------------------
+# REST API Support
+# ----------------------------
+djangorestframework==3.16.0     # Powerful and flexible toolkit for building Web APIs
+django-cors-headers==4.7.0      # Handles Cross-Origin Resource Sharing (CORS) headers
+django-filter==25.1             # Enables dynamic filtering of querysets in Django REST Framework
+Markdown==3.8                   # Support for Markdown rendering in API responses
+
+# ----------------------------
+# Environment Configuration
+# ----------------------------
+python-decouple==3.8            # Separates settings from source code using a .env file
+
+# ----------------------------
+# PostgreSQL Support
+# ----------------------------
+psycopg2-binary==2.9.10         # PostgreSQL database adapter for Python (binary version)
